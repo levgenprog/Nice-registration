@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>DiplomaBro</title>
+		<title>DiplomaBrrro</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,22 +18,7 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Diploma</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Меню</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="#">Зарегистрироваться</a></li>
-											<li><a href="#">Авторизоваться</a></li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+				<?php include "inc/header.php"; ?>
 
 				<!-- Banner -->
 					<section id="banner">
@@ -45,7 +30,7 @@
 							</p>
 
 							<!--The autorisation and registration pane-->
-							
+
                             <form method="post" action="auth.php">
 								<h3>Заполните чтобы войти: </h3>
 								<div class="row gtr-uniform">
