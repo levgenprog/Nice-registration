@@ -4,7 +4,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>DiplomaBro</title>
+		<title>DiplomaBrrro</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,9 +16,9 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Diploma</a></h1>
-					</header>
+
+				<?php include "inc/header.php"; ?>
+
 
 				<!-- Banner -->
 					<section id="banner">
@@ -31,7 +31,9 @@
 
 							<!--The autorisation and registration pane-->
 
+
               <form method="post" action="index.php">
+
 								<h3>Заполните чтобы войти: </h3>
 								<?php
 								if (isset($_POST['auth'])) {

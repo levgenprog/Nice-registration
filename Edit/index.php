@@ -21,23 +21,14 @@
 						<div class="inner">
 
 							<!-- Header -->
-								<header id="header">
-									<a href="index-1.html" class="logo"><strong>СОЦИАЛЬНАЯ СЕТЬ ДЛЯ НЕТВОРКИНГА</strong> АМБИЦИОЗНЫХ ЛЮДЕЙ</a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-									</ul>
-								</header>
+							<?php include "inc1/header1.php"; ?>
 
 							<!-- Banner -->
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h1>В чем важность<br/>
-											поиска едино<br/>мышленников?</h1>
+											<h1>В чем важность<br />
+											поиска едино<br />мышленников?</h1>
 										</header>
                                         <blockquote>"В трудные времена опыт может вас не спасти. Не спасут и трудолюбие и талант. Если вам нужна работа, деньги, хороший совет, помощь или надежда, есть только одно надежное средство – <strong>широкий круг ваших друзей и знакомых."</strong><br /><strong> © Кейт Феррацци, Тал Рэз "Никогда не ешьте в одиночку и другие правила нетворкинга"</strong> </blockquote>
 										<ul class="actions">
@@ -161,58 +152,7 @@
 								</section>
 
 							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Меню</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Главная страница</a></li>
-										<li><a href="Личный-Кабинет.html">Личный кабинет</a></li>
-										<li><a href="Minded.html">Поиск Единомышленников</a></li>
-                                    </ul>
-								</nav>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Наши статьи</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="SMART.html" class="image"><img src="images/5.jpg" alt="" /></a>
-											<p>Как сформировать SMART-Цель</p>
-										</article>
-										<article>
-											<a href="ЦЗД.html" class="image"><img src="images/6.jpg" alt="" /></a>
-											<p>Система Цели-Задачи-Действия</p>
-										</article>
-										<article>
-											<a href="matrix.html" class="image"><img src="images/88.jpg" alt="" /></a>
-											<p>Матрица Эйзенхауэра</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="SMART.html" class="button">Читать</a></li>
-									</ul>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Связаться с нами</h2>
-									</header>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">migourgoals@gmail.com</a></li>
-										<li class="icon solid fa-phone">(747) 259 79 62</li>
-										<li class="icon solid fa-home">Almaty<br />
-										</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Connection_in_isolation. All rights reserved. </p>
-								</footer>
+							<?php include "inc1/footer1.php"; ?>
 
 						</div>
 					</div>
